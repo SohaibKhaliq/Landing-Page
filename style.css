@@ -1,14 +1,18 @@
 /* This will set margin, padding and border to none and zero, and made overflow x hidden */
-*,body{
-    margin: 0px;
-    padding: 0px;
-    border: none;
-   overflow-x: hidden;
+*,
+body {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  overflow-x: hidden;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 /* made a div with navbar with specific height and 100% width */
-.navbar{
-    height: 67px;
-    width: 100%;
-    border: 1px solid black;
+.navbar {
+  height: 67px;
+  width: 100%;
+  border: 1px solid black;
 }
