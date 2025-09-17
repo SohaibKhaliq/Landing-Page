@@ -41,3 +41,25 @@ body {
     margin-left: 8%;
 }
 
+.main-nav{
+    list-style-type: none;
+    height: inherit;
+    align-items: center;
+    align-content: center;
+    margin-left: 104px;
+}
+
+.main-nav>.nav-links{
+    display: inline;
+    margin-left: 24px;
+    
+}
+
+.list{
+    background-color: rgb(248, 248, 245);
+    outline-style: none;
+    height: 31px;
+    padding: 7px;
+    width: inherit;
+    border-radius: 24px;
+}
