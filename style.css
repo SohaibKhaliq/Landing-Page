@@ -16,3 +16,8 @@ body {
   width: 100%;
   border: 1px solid black;
 }
+/* Accessed .sumip class using hierarchy and adjusted its position */
+.navbar>.logo>.sumip{
+    font-weight: bold;
+    font-size: 25px;
+}
