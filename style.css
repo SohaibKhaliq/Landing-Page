@@ -14,78 +14,155 @@ body {
 .navbar {
   height: 67px;
   width: 100%;
-  border: 1px solid black;
+  overflow-y: hidden;
 }
 
-.navbar>.logo{
-    height: inherit;
-    width: 12%;
-    display: inline-block;
+.navbar > .logo {
+  height: inherit;
+  width: 12%;
+  display: inline-block;
 }
 /* Accessed .sumip class using hierarchy and adjusted its position */
-.navbar>.logo>.sumip{
-    height: inherit;
-    width: inherit;
-    font-weight: bold;
-    font-size: 25px;
-    margin-left: 45px;
-    position: relative;
-    top: 16px;
+.navbar > .logo > .sumip {
+  height: inherit;
+  width: inherit;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 45px;
+  position: relative;
+  top: 16px;
 }
 
-.navbar>.content{
-    display: inline-block;
-    height: inherit;
-    width: 60%;
+.navbar > .content {
+  display: inline-block;
+  height: inherit;
+  width: 60%;
+  margin-left: 8%;
+}
+
+.main-nav {
+  list-style-type: none;
+  height: inherit;
+  align-items: center;
+  align-content: center;
+  margin-left: 104px;
+}
+
+.main-nav > .nav-links {
+  display: inline;
+  margin-left: 24px;
+}
+
+.list {
+  background-color: rgb(248, 248, 245);
+  outline-style: none;
+  height: 31px;
+  padding: 7px;
+  width: inherit;
+  border-radius: 24px;
+}
+
+.dropdown {
+  appearance: none;
+  font-weight: 500;
+  /* border: 1px solid rgb(212, 209, 209); */
+  border-radius: 24px;
+  height: 30px;
+  background-color: rgb(245, 243, 243);
+  padding-left: 19px;
+}
+
+.dropdown:focus {
+  outline: none;
+}
+
+.dropdown:focus-visible {
+  outline: none;
+}
+
+.dropdown:focus-within {
+  outline: none;
+}
+
+.d2 {
+  width: 136px;
+}
+
+.buttons {
+  height: inherit;
+  width: 12%;
+  display: inline-block;
+  margin-left: 3%;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+.nav-button {
+  height: 32px;
+  width: 77px;
+  border-radius: 24px;
+}
+
+.btn-black{
+    background-color: black;
+    color: white;
+}
+
+
+.hero{
+    height: 500px;
+    width: 100%;
     border: 1px solid black;
-    margin-left: 8%;
-}
-
-.main-nav{
-    list-style-type: none;
-    height: inherit;
     align-items: center;
+    align-self: center;
     align-content: center;
-    margin-left: 104px;
 }
 
-.main-nav>.nav-links{
-    display: inline;
-    margin-left: 24px;
-    
-}
-
-.list{
-    background-color: rgb(248, 248, 245);
-    outline-style: none;
-    height: 31px;
-    padding: 7px;
-    width: inherit;
+.hero>.center>.featured{
+    height: 20px;
+    width: 245px;
+    border: 1px solid black;
     border-radius: 24px;
+    overflow-y: hidden;
 }
 
-.dropdown{
-    appearance: none;
-    font-weight: 500;
-    /* border: 1px solid rgb(212, 209, 209); */
-    border-radius: 24px;
-    height: 30px;
-    background-color: rgb(245, 243, 243);
-    padding-left: 19px;
+.center{
+    height: 405px;
+    width: 70%;
+    position: relative;
+    border: 1px solid black;
+    left: 15%;
 }
 
-.dropdown:focus{
-    outline: none;
+.bold{
+    font-weight: bold;
 }
 
-.dropdown:focus-visible{
-    outline: none;
+.justify-center{
+    justify-self: center;
 }
 
-.dropdown:focus-within{
-    outline: none;
+.margin-top{
+    margin-top: 30px;
 }
 
-.d2{
-    width: 136px;
+
+.center-button{
+    position: relative;
+    left: 45%;
+}
+
+.heading{
+    display: flex;
+    font-size: x-large;
+    justify-content: center;
+}
+.upper-center{
+    position: relative;
+    left: 144px;
+}
+
+.subtext{
+    font-size: smaller  ;
 }
